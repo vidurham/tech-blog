@@ -11,18 +11,22 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1>
-        <a href="/">Just Tech News</a>
-      </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
+        <a href="/" class="nav-item">Home</a>
+        <a href="/dashboard" class="nav-item">Dashboard</a>
+        <button id="logout" class="btn-nav-item">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/" class="nav-item">Home</a>
+        <a href="/login" class="nav-item">Dashboard</a>
+        <a href="/login" class="nav-item">Login</a>
         {{/if}}
       </nav>
     </header>
+    <section class="hero">
+      <div class="hero-image">
+      </div>
+    </section>
     <main>
       {{{ body }}}
     </main>
@@ -30,7 +34,6 @@
       Thanks for visiting!
     </footer>
   </div>
-  
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
   {{/if}}
