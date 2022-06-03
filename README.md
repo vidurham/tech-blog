@@ -35,7 +35,7 @@ npm install and npm start, you must also have MySQL loaded on your computer to c
 If you have any questions, feel free to contact me via email, vdurham@prideseals.com, or visit my Github page at [vidurham](https://github.com/vidurham).
 
 ### Heroku
-[Heroku Link](https://note-taker-2244.herokuapp.com/)
+[Heroku Link](https://tech-blog-2244.herokuapp.com/)
 
 ### Screenshot
-![Screenshot of Tech Blog App](./public/images/tech-blog-pic.png)
+![Screenshot of Tech Blog App](./public/images/tech-blog-pic.jpg)
