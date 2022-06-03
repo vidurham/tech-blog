@@ -38,4 +38,4 @@ If you have any questions, feel free to contact me via email, vdurham@prideseals
 [Heroku Link](https://note-taker-2244.herokuapp.com/)
 
 ### Screenshot
-![Screenshot of Note Taker App](./public/images/tech-blog-pic.png)
+![Screenshot of Tech Blog App](./public/images/tech-blog-pic.png)
